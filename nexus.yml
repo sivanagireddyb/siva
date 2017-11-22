@@ -1,5 +1,5 @@
 ---
-- hosts: testservers
+- hosts: 192.168.2.21
   become: yes
   tasks:
   - name: stop tomcat
